@@ -54,6 +54,10 @@ body {
     font-size: 45px;
 }
 
+.margin-btm {
+    margin-bottom: 50px;
+}
+
 .g-amount {
     border: 0px solid grey;
     padding: 35px 23px;
@@ -148,4 +152,21 @@ body {
     color: white;
     border-radius: 0px 5px 5px 0px;
     padding: 13px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+
+footer h4 {
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+footer p {
+    color: white;
 }
