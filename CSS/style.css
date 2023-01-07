@@ -44,12 +44,13 @@ body {
     gap: 22px;
 }
 
-.donation {
+.middle {
     text-align: center;
     padding: 0 30%;
+    margin-bottom: 100px;
 }
 
-.donate-heading {
+.middle-heading {
     font-size: 45px;
 }
 
@@ -68,10 +69,38 @@ body {
 }
 
 .input {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .input input {
     text-align: center;
     border: 0px;
+}
+
+.donate-plan {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.plans {
+    text-align: left;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+.plan-1 {
+    background: rgba(79, 157, 166, 0.1);
+
+}
+
+.plan-2 {
+    background: rgba(255, 89, 89, 0.1);
+
+}
+
+.plan-3 {
+    background: #FFF4D6;
+
 }
